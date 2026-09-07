@@ -25,7 +25,7 @@ export default function Home() {
           <div className="hero-actions"><a className="button button-dark" href="#games">Meet our first game <span>↓</span></a><a className="text-link" href="#about">Our story <span>→</span></a></div>
           <p className="hero-footnote">Mobile&nbsp; · &nbsp;iPad&nbsp; · &nbsp;Console</p>
         </div>
-        <div className="hero-art" aria-label="Mahua Game Studio mascot and logo"><span className="sun sun-one" aria-hidden="true" /><span className="sun sun-two" aria-hidden="true" /><span className="doodle doodle-one" aria-hidden="true">✦</span><span className="doodle doodle-two" aria-hidden="true">✦</span><img src="/mahua-logo.png" alt="Mahua Game Studio apricot poodle mascot" /><p>Play a brighter tomorrow</p></div>
+        <div className="hero-art" aria-label="Mahua Game Studio mascot and logo"><span className="sun sun-one" aria-hidden="true" /><span className="sun sun-two" aria-hidden="true" /><span className="doodle doodle-one" aria-hidden="true">✦</span><span className="doodle doodle-two" aria-hidden="true">✦</span><img src="/mahua-logo.png" alt="Mahua Game Studio apricot poodle mascot" /></div>
       </section>
 
       <section className="marquee" aria-label="Mahua game studio statement"><div>COLOURFUL WORLDS <b>✦</b> KIND HEARTS <b>✦</b> GOOD PLAY <b>✦</b> COLOURFUL WORLDS <b>✦</b> KIND HEARTS <b>✦</b></div></section>
