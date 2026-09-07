@@ -207,32 +207,43 @@ export default function Home() {
         </div>
         <div className="about-copy">
           <p className="eyebrow">
-            <span /> About Mahua
+            <span /> About Mahua Game Studio
           </p>
           <h2>
-            A small studio
+            About Mahua
             <br />
-            with <i>big imagination.</i>
+            <i>Game Studio.</i>
           </h2>
           <p>
-            Mahua Game Studio is an independent studio from Brisbane, Australia.
-            We create welcoming games with personality: the kind that turn a
-            spare moment into something brighter.
+            Mahua Game Studio is an independent game studio based in Brisbane,
+            Australia, dedicated to creating engaging, polished, and memorable
+            interactive experiences.
           </p>
           <p>
-            From cosy 2D moments to vivid 3D adventures, we believe every game
-            world should invite players in and leave a little joy behind.
+            We develop games across mobile, tablet, and console platforms,
+            working in both 2D and 3D. Rather than being defined by a single
+            genre, we explore a diverse range of experiences—from cooking,
+            simulation, and puzzle games to competitive multiplayer and new
+            ideas that push us into different ways of playing.
           </p>
-          <div className="values">
-            <div>
-              <b>Play with heart</b>
-              <span>Memorable games, made with care.</span>
-            </div>
-            <div>
-              <b>Stay curious</b>
-              <span>Fresh ideas for every kind of player.</span>
-            </div>
-          </div>
+          <p>
+            We believe great games begin with thoughtful design, intuitive
+            gameplay, distinctive worlds, and attention to the small details
+            that make every interaction enjoyable.
+          </p>
+          <p>
+            Our apricot poodle mascot embodies the spirit of Mahua Game Studio:
+            playful, curious, energetic, and always ready for a new adventure.
+          </p>
+          <p>
+            Our first title is only the beginning. As we grow, we aim to build
+            original games across different genres and platforms, creating
+            experiences that players around the world can enjoy, remember, and
+            return to.
+          </p>
+          <p className="about-signoff">
+            Mahua Game Studio — Small Studio. Big Worlds. Made to Play.
+          </p>
         </div>
       </section>
 
