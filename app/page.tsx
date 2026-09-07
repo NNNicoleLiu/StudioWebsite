@@ -16,9 +16,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#home" aria-label="Mahua Game Studio home">
-          <span className="brand-mark" aria-hidden="true">
-            ✦
-          </span>
+          <img className="brand-mark" src="/mahua-mascot.png" alt="" />
           <span>
             Mahua
             <br />
@@ -134,9 +132,7 @@ export default function Home() {
               adventure full of flavour, friendship, and feel-good play.
             </p>
             <div className="platforms">
-              <span>Mobile</span>
               <span>iPad</span>
-              <span>Console</span>
             </div>
             <a className="text-link strong" href="#contact">
               Get launch news <span>→</span>
@@ -269,7 +265,7 @@ export default function Home() {
 
       <footer className="site-footer section-shell">
         <a className="brand footer-brand" href="#home">
-          <span className="brand-mark">✦</span>
+          <img className="brand-mark" src="/mahua-mascot.png" alt="" />
           <span>
             Mahua
             <br />
