@@ -1,4 +1,4 @@
-const contactEmail = "hello@mahuagamestudio.com";
+const contactEmail = "info@mahuagamestudio.com";
 
 const playStyles = [
   [
@@ -26,7 +26,7 @@ export default function Home() {
         <nav className="desktop-nav" aria-label="Main navigation">
           <a href="#home">Home</a>
           <a href="#games">Games</a>
-          <a href="#about">About us</a>
+          <a href="#about">About</a>
           <a href="#contact">Contact us</a>
         </nav>
         <a className="header-cta" href={`mailto:${contactEmail}`}>
@@ -51,7 +51,7 @@ export default function Home() {
           <h1>
             Small paws.
             <br />
-            <i>Big play.</i>
+            <em>Big play.</em>
           </h1>
           <p className="hero-lede">
             We make bright, big-hearted game worlds for every kind of player —
@@ -73,8 +73,6 @@ export default function Home() {
           className="hero-art"
           aria-label="Mahua Game Studio mascot and logo"
         >
-          <span className="sun sun-one" aria-hidden="true" />
-          <span className="sun sun-two" aria-hidden="true" />
           <span className="doodle doodle-one" aria-hidden="true">
             ✦
           </span>
@@ -93,11 +91,6 @@ export default function Home() {
           <p className="eyebrow">
             <span /> First up
           </p>
-          <h2>
-            Something delicious
-            <br />
-            is nearly ready.
-          </h2>
         </div>
         <article className="game-card">
           <div className="game-visual" aria-hidden="true">
@@ -122,11 +115,7 @@ export default function Home() {
             <div className="status">
               <span /> Coming soon
             </div>
-            <h3>
-              Our first game
-              <br />
-              is cooking up.
-            </h3>
+            <h3>Something delicious is nearly ready</h3>
             <p>
               We are putting the finishing touches on a cheerful cooking
               adventure full of flavour, friendship, and feel-good play.
@@ -147,10 +136,10 @@ export default function Home() {
             <p className="eyebrow">
               <span /> More to play
             </p>
-            <h2 id="play-title">
+            <h2>
               One studio.
               <br />
-              <i>Many kinds of fun.</i>
+              <em>Many kinds of fun.</em>
             </h2>
             <p>
               Our first game is only the beginning. Mahua is growing worlds
@@ -207,43 +196,110 @@ export default function Home() {
         </div>
         <div className="about-copy">
           <p className="eyebrow">
-            <span /> About Mahua Game Studio
+            <span /> About Us
           </p>
           <h2>
-            About Mahua
+            Small studio.
             <br />
-            <i>Game Studio.</i>
+            <em>Big play.</em>
           </h2>
           <p>
-            Mahua Game Studio is an independent game studio based in Brisbane,
-            Australia, dedicated to creating engaging, polished, and memorable
-            interactive experiences.
+            Mahua Game Studio is a Brisbane-based independent studio creating
+            engaging, polished, and memorable 2D and 3D games for mobile, iPad,
+            and console.
           </p>
           <p>
-            We develop games across mobile, tablet, and console platforms,
-            working in both 2D and 3D. Rather than being defined by a single
-            genre, we explore a diverse range of experiences—from cooking,
-            simulation, and puzzle games to competitive multiplayer and new
-            ideas that push us into different ways of playing.
+            We are not defined by one genre. From cosy cooking games and
+            thoughtful simulations to puzzles, competitive multiplayer, and
+            entirely new adventures. We make playful worlds that are easy to
+            pick up and hard to forget.
           </p>
           <p>
-            We believe great games begin with thoughtful design, intuitive
-            gameplay, distinctive worlds, and attention to the small details
-            that make every interaction enjoyable.
+            Great games begin with thoughtful design, intuitive gameplay,
+            distinctive worlds, and the small details that make every moment
+            feel satisfying. That is the care we bring to every project.
           </p>
           <p>
-            Our apricot poodle mascot embodies the spirit of Mahua Game Studio:
-            playful, curious, energetic, and always ready for a new adventure.
-          </p>
-          <p>
-            Our first title is only the beginning. As we grow, we aim to build
-            original games across different genres and platforms, creating
-            experiences that players around the world can enjoy, remember, and
-            return to.
+            Our first title is only the beginning. As Mahua grows, we want to
+            create original experiences that players around the world can enjoy,
+            remember, and return to.
           </p>
           <p className="about-signoff">
-            Mahua Game Studio — Small Studio. Big Worlds. Made to Play.
+            Thoughtful design · Joyful details · New worlds
           </p>
+        </div>
+      </section>
+
+      <section
+        className="meet-mahua section-shell"
+        aria-labelledby="meet-mahua-title"
+      >
+        <span className="meet-sparkle" aria-hidden="true">
+          ✦
+        </span>
+        <img className="meet-paw" src="/mahua-paw-light.png" alt="" />
+        <div className="meet-mahua-content">
+          <div className="meet-mahua-copy">
+            <p className="eyebrow">
+              <span /> Meet Mahua
+            </p>
+            <h2 id="meet-mahua-title">
+              A small poodle
+              <br />
+              with <em>big energy.</em>
+            </h2>
+            <p>
+              Mahua is the heart of our studio. Curious, playful, and full of
+              joy—she is always ready for the next adventure.
+            </p>
+          </div>
+
+          <div className="mahua-photo-board">
+            <figure className="mahua-polaroid mahua-photo-one">
+              <img src="/mahua1.png" alt="Mahua indoors with a tennis ball" />
+              <figcaption>
+                Curious <span>♥</span>
+              </figcaption>
+            </figure>
+            <figure className="mahua-polaroid mahua-photo-two">
+              <img src="/mahua2.png" alt="Mahua in a sunny park" />
+              <figcaption>
+                Stylish <span>♥</span>
+              </figcaption>
+            </figure>
+            <figure className="mahua-polaroid mahua-photo-three">
+              <img src="/mahua3.png" alt="Mahua playing on grass" />
+              <figcaption>
+                Chill <span>♥</span>
+              </figcaption>
+            </figure>
+            <figure className="mahua-polaroid mahua-photo-four">
+              <img src="/mahua4.png" alt="Mahua on a garden path" />
+              <figcaption>
+                Explorer <span>♥</span>
+              </figcaption>
+            </figure>
+            <aside className="mahua-note mahua-note-right">
+              Cute
+              <br />
+              Brave
+              <br />
+              Playful
+              <br />
+              Always ready
+              <br />
+              for adventure
+              <br />♡
+            </aside>
+            <aside className="mahua-note mahua-note-left">
+              Same
+              <br />
+              Pawsitive Vibes
+              <br />
+              in Every Game
+              <br />♡
+            </aside>
+          </div>
         </div>
       </section>
 
@@ -255,14 +311,9 @@ export default function Home() {
           <p className="eyebrow light">
             <span /> Contact us
           </p>
-          <h2>
-            Let&apos;s make
-            <br />
-            something <i>bright.</i>
-          </h2>
           <p>
-            For business, press, player, or general enquiries, drop our little
-            studio a line.
+            For business, player, or general enquiries, drop our little studio a
+            line.
           </p>
           <a className="email-link" href={`mailto:${contactEmail}`}>
             {contactEmail}
@@ -274,22 +325,39 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="site-footer section-shell">
-        <a className="brand footer-brand" href="#home">
-          <img className="brand-mark" src="/mahua-mascot.png" alt="" />
-          <span>
-            Mahua
-            <br />
-            <em>Game Studio</em>
-          </span>
-        </a>
-        <p>Play a brighter tomorrow.</p>
-        <div className="footer-links">
-          <a href="#games">Games</a>
-          <a href="#about">About us</a>
-          <a href="#contact">Contact us</a>
+      <footer className="site-footer">
+        <div className="footer-cta-panel">
+          <div className="footer-content section-shell">
+            <a className="brand footer-brand" href="#home">
+              <img className="brand-mark" src="/mahua-mascot.png" alt="" />
+              <span>
+                Mahua
+                <br />
+                <em>Game Studio</em>
+              </span>
+            </a>
+            <p className="footer-message">
+              <span className="footer-message-text">
+                <span>Let&apos;s make</span> <span>a brighter</span>{" "}
+                <span>game world</span> <span>together.</span>
+              </span>
+              <img
+                className="footer-message-paw"
+                src="/footer-paw.png"
+                alt=""
+              />
+              <span className="footer-message-underline" aria-hidden="true" />
+            </p>
+            <div className="footer-links">
+              <a href="#games">Games</a>
+              <a href="#about">About us</a>
+              <a href="#contact">Contact us</a>
+            </div>
+          </div>
         </div>
-        <small>© 2026 Mahua Game Studio. All rights reserved.</small>
+        <small className="footer-copyright section-shell">
+          © 2026 Mahua Game Studio. All rights reserved.
+        </small>
       </footer>
     </main>
   );
