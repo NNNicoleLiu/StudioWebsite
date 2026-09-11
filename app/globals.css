@@ -1185,6 +1185,15 @@ h2 p {
   .game-visual {
     min-height: 340px;
   }
+  .tomato-a {
+    bottom: 130px;
+  }
+  .steam {
+    top: 60px;
+  }
+  .steam-b {
+    top: 50px;
+  }
   .play-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1302,14 +1311,28 @@ h2 p {
   .game-visual p b {
     font-size: 41px;
   }
+  .game-sun {
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 8%;
+  }
+  .tomato-a {
+    left: 6%;
+    bottom: 120px;
+  }
   .pot {
     transform: translateX(-50%) scale(0.78);
-    bottom: 63px;
+    bottom: 98px;
+  }
+  .leaf {
+    top: 50px;
   }
   .steam {
-    transform: scale(0.75);
-    transform-origin: bottom;
-    top: 70px;
+    top: 25px;
+  }
+  .steam-b {
+    top: 10px;
   }
   .play-section {
     padding: 75px 0;
@@ -1320,9 +1343,7 @@ h2 p {
   .play-card {
     min-height: 0;
   }
-  .mini-illustration {
-    height: 72px;
-  }
+
   .about-art {
     width: 260px;
   }
